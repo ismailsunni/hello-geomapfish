@@ -1,0 +1,18 @@
+---
+project_folder: hello-geomapfish
+project_package: hello_geomapfish
+application_url: https://localhost:8484/
+checker_url: https://172.17.0.1:8484/c2c/health_check?max_level=9
+managed_files: []
+unmanaged_files: []
+template_vars:
+  package: hello_geomapfish
+  srid: 4326
+  extent: -180.00000000,-90.00000000,180.00000000,90.00000000
+  authtkt_secret: IiP3AikuC3seingeiMoo6lei8ooShaiwah2aiK4uchughaichekahCh0OodeiT5s
+env:
+  files:
+    - env.default
+    - env.project
+  required_args: 0
+  help: No arguments needed.
